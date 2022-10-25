@@ -1,14 +1,14 @@
 // FUNCTION IMPLEMENTATION
-const assertArraysEqual = function(array1, array2) {
+const assertArraysEqual = function(actual, expected) {
   let equal = true;
   let message = "";
 
-  for (let i = 0; i < array1.length; i++) {
-    if (array1[i] !== array2[i])
+  for (let i = 0; i < actual.length; i++) {
+    if (actual[i] !== expected[i])
     equal = false;
   }
 
-  equal ? message = `✅✅✅ Assertion Passed` : message = `🛑🛑🛑 Assertion Failed`;
+  equal ? message = `✅✅✅ Assertion Passed: ${actual} === ${expected}` : message = `🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`;
   console.log(message);
 };
 
