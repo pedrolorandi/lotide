@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@pedrolorandi/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide: Our Clone of Lodash",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/pedrolorandi/lotide.git"
   },
-  "author": "",
+  "author": "Pedro Lorandi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pedrolorandi/lotide/issues"
